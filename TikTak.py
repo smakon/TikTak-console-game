@@ -46,17 +46,14 @@ while game:
                     or failed[0] == "X" and failed[4] == "X" and failed[8] == "X" or failed[2] == "X" and failed[4] == "X" and failed[6] == "X"):
                     print("X wins")
                     game = False
-                    break
                 elif (failed[0] == "O" and failed[1] == "O" and failed[2] == "O" or failed[3] == "O" and failed[4] == "O" and failed[5] == "O" or failed[6] == "O" and failed[7] == "O" and failed[8] == "O"
                       or failed[0] == "O" and failed[3] == "O" and failed[6] == "O" or failed[1] == "O" and failed[4] == "O" and failed[7] == "O" or failed[2] == "O" and failed[5] == "O" and failed[8] == "O"
                       or failed[0] == "O" and failed[4] == "O" and failed[8] == "O" or failed[2] == "O" and failed[4] == "O" and failed[6] == "O"):
                     print("O wins")
                     game = False
-                    break
                 elif(failed[0] != " " and failed[1] != " " and failed[2] != "" and failed[3] != " " and failed[4] and failed[5] != " " and failed[6] and failed[7] != " " and failed[8] != " "):
                     print("Draw")
                     game = False
-                    break
                 else:
                     move += 1
                     print("Move X")
@@ -89,18 +86,15 @@ while game:
                         or failed[0] == "X" and failed[4] == "X" and failed[8] == "X" or failed[2] == "X" and failed[4] == "X" and failed[6] == "X"):
                     print("X wins")
                     game = False
-                    break
                 elif (failed[0] == "O" and failed[1] == "O" and failed[2] == "O" or failed[3] == "O" and failed[4] == "O" and failed[5] == "O" or failed[6] == "O" and failed[7] == "O" and failed[8] == "O"
                       or failed[0] == "O" and failed[3] == "O" and failed[6] == "O" or failed[1] == "O" and failed[4] == "O" and failed[7] == "O" or failed[2] == "O" and failed[5] == "O" and failed[8] == "O"
                       or failed[0] == "O" and failed[4] == "O" and failed[8] == "O" or failed[2] == "O" and failed[4] == "O" and failed[6] == "O"):
                     print("O wins")
                     game = False
-                    break
                 elif (failed[0] != " " and failed[1] != " " and failed[2] != "" and failed[3] != " " and failed[4]
                       and failed[5] != " " and failed[6] and failed[7] != " " and failed[8] != " "):
                     print("Draw")
                     game = False
-                    break
                 else:
                     move += 1
                     print("Move O")
